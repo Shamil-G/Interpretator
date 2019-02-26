@@ -1,7 +1,6 @@
 package gsa.interpretator;
 
 import java.util.HashMap;
-
 import javax.xml.transform.Result;
 
 public class Calculator extends ParserParameters {
