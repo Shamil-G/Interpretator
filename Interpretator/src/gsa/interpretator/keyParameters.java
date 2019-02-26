@@ -20,7 +20,7 @@ public abstract class keyParameters {
     public void setMapParameters(HashMap<String, String> mapVariable) {
         if (mapParameters.size() > 0)
             mapParameters.clear();
-        //this.mapParameters = (HashMap<String, String>)mapVariable.clone();
+//this.mapParameters = (HashMap<String, String>)mapVariable.clone();
         this.mapParameters = mapVariable;
         mapParameters.forEach((p1, p2) -> keys.add(p1));
         resolveParameters();
@@ -54,7 +54,7 @@ public abstract class keyParameters {
                 internal_nv = extract_name_variable(value);
             }
         }
-        //        System.out.println("------>5. Resolve MAP: "+mapParameters);
+//        System.out.println("------>5. Resolve MAP: "+mapParameters);
     }
 
     public String substitutionParameters(String expression, String name_variable) {
